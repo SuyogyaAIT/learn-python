@@ -1,10 +1,25 @@
-# Sonny Li
-# Fun Fact: I played guitar in a band called Attica.
+# Suyogya Tamrakar
+# I don't like coding but I am always into it.
 
-print("  SSS   L     ")
-print(" S   S  L     ")
-print(" S      L     ")
-print("  SSS   L     ")
-print("     S  L     ")
-print(" S   S  L     ")
-print("  SSS   LLLLL ")
+s = [
+  ' SSS ',
+  'S   S',
+  'S    ',
+  ' SSS ',
+  '    S',
+  'S   S',
+  ' SSS '
+  ]
+
+t = [
+  'TTTTT',
+  '  T  ',
+  '  T  ',
+  '  T  ',
+  '  T  ',
+  '  T  ',
+  '  T  '
+]
+
+for i in range(len(s)):
+  print(s[i] + ' ' + t[i])
